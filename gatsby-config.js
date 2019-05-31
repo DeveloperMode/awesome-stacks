@@ -5,7 +5,7 @@ module.exports = {
     title: `Awesome Stacks`,
     url: `https://awesomestacks.dev`,
     description: `Discover awesome tech stacks for building different applications and features.`,
-    image: `/images/awesome-stacks-twitter-card-large.png`,
+    image: `/images/awesome-stacks-twitter-card-large-v3.png`,
     imageWidth: 1688,
     imageHeight: 883,
     author: `@dzello`,
@@ -22,13 +22,13 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `content-docs`,
-        path: `${__dirname}/content/docs`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `content-docs`,
+    //     path: `${__dirname}/content/docs`,
+    //   },
+    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
